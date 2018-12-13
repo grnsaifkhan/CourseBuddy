@@ -1,0 +1,83 @@
+*{margin:0;padding:0}
+body{font-family:arial;font-size:16px; background-color: #000000;line-height:22px;color:#848484; border-radius: 3px;}
+.fix{overflow: hidden;}
+.main{width: 1349px;display: block;background: #101010}/*margin: 40px auto;*/
+.header{font-family: NSimSun;padding: 10px;margin-bottom:5px;background-color: #1B1B1B;border-radius: 3px;}
+.header_left{float: left;padding:10px}
+.header_right{
+    float: right;
+    padding:10px;
+    color:#16BBD2;
+}
+.slider{margin-bottom: 8px;}
+.slider_left{float: left;width: 675px;}
+.slider_right{
+    background: #000000;
+    font-family: NSimSun;
+    padding:91.3px;
+    border: 10px solid #1B1B1B;
+}
+.menu{overflow: hidden;width: 1349px; background: #1B1B1B;margin-bottom: 5px;margin-top: 5px;float: left}
+.menu ul{margin: 0;padding: 0;list-style: none;}
+.menu ul li{float:left;}
+.menu ul li a{display:block;text-decoration:none;color: #FFFFFF;padding: 10px 99px}
+.menu ul li a:hover{color: #16BBD2}
+
+.feature_column{
+    float: left;
+    width: 427.5px;/*31.84%*/
+    padding: 10px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+.feature_column h2{
+    color: #16BBD2;
+    font-family: NSimSun;
+}
+.feature_column p{
+    color: #ffffff;
+}
+.feature_row:after{
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+/* Create three equal columns that floats next to each other */
+.info_column {
+    float: left;
+    width: 429.5px;/*31.84%*/
+    padding: 10px;
+    height: 200px;
+    text-align: center;/* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.info_row p{
+    color: #ffffff;
+}
+.info_row h2{
+    color: #16BBD2;
+    font-family: NSimSun;
+}
+.info_row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 5px;
+}
+.std_menu{overflow: hidden;width: 1365px; background: #1B1B1B;margin-bottom: 5px;margin-top: 5px;float: left;}
+.std_menu ul{margin: 0;padding: 0;list-style: none;}
+.std_menu ul li{float:left;}
+.std_menu ul li a{display:block;text-decoration:none;color: #FFFFFF;padding: 10px 138px;}
+.std_menu ul li a:hover{color: #16BBD2;}
+
+.admin_menu{overflow: hidden;width: 1365px; background: #1B1B1B;margin-bottom: 5px;margin-top: 5px;float: left;}
+.admin_menu ul{margin: 0;padding: 0;list-style: none;}
+.admin_menu ul li{float:left;}
+.admin_menu ul li a{display:block;text-decoration:none;color: #FFFFFF;padding: 10px 50px;}
+.admin_menu ul li a:hover{color: #16BBD2;}
+
+.footer{background:#1B1B1B;padding:5px;margin-top: 5px; border-radius: 5px;}
